@@ -9,9 +9,9 @@ Feature: As a user
     And I fill in "Email" with "john@doe.com"
     And I fill in "Password" with "abc123"
     And I click "Create" button
-    Then I should see the message "Password confirmation doesn't match Password"
-    And I should see the message "Password is too short (minimum is 8 characters)"
-    And I should see the message "Name can't be blank"
+    Then I should see "Password confirmation doesn't match Password"
+    And I should see "Password is too short (minimum is 8 characters)"
+    And I should see "Name can't be blank"
 
   Scenario: Register new user
     When I visit "landing" page
@@ -22,4 +22,4 @@ Feature: As a user
     And I fill in "Password" with "abcde1234"
     And I fill in "Password confirmation" with "abcde1234"
     And I click "Create" button
-    Then I should see the message "Welcome! You have signed up successfully."
+    Then I should see "Welcome! You have signed up successfully."

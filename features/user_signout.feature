@@ -9,4 +9,4 @@ Feature: As a user
   Scenario: User Log out
     When I visit "landing" page
     And I click "Logout" button
-    Then I should see the message "Signed out successfully."
+    Then I should see "Signed out successfully."
