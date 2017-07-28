@@ -29,3 +29,7 @@ end
 Given(/^I am on landing page$/) do
   visit new_conversation_path
 end
+
+When(/^I send a mail to "([^"]*)"$/) do |arg1|
+
+end
