@@ -1,6 +1,7 @@
-Feature: As a user
-In order to access the app when I already have an account
-I should be able to login
+Feature: User login
+  As a user
+  In order to access the app when I already have an account
+  I should be able to login
 
 Background:
   Given the user "Bob" exist
