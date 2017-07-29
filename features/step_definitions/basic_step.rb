@@ -50,6 +50,8 @@ def get_path(page_name)
     path = new_user_session_path
   when 'landing'
     path = root_path
+  when 'trash'
+    path = mailbox_trash_path
   else
     raise 'Path missing!'
   end
