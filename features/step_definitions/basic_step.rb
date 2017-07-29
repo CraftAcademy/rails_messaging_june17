@@ -25,6 +25,7 @@ Then(/^I should be on "([^"]*)" page$/) do |page_name|
   expect(page).to have_current_path get_path page_name
 end
 
+#debugging steps
 Then(/^show me the page$/) do
   save_and_open_page
 end
